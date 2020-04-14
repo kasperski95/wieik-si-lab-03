@@ -1,5 +1,10 @@
 param (
-  [Parameter(Mandatory=$true)][string]$package
+  [Parameter()][AllowNull()][string]$package
 )
-pip install $package && 
-pip freeze > requirements.txt
+
+if ([String]::IsNullOrWhiteSpace($package)) {
+  pip install -r requirements.txt
+} Else {
+  pip install $package && 
+  pip freeze > requirements.txt
+}
