@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    "env/": true,
+    "wandb/": true
+  },
+  "python.formatting.blackArgs": ["--line-length=140"],
+  "python.pythonPath": "f:\\Repos\\wieik-si-lab-03\\env\\Scripts\\python.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "-NoExit",
+    "-Command",
+    "${workspaceFolder}/scripts/init-env.ps1"
+  ]
+}
