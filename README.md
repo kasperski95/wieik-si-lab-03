@@ -25,3 +25,14 @@
 | Chihuahua (35.97%)     | Pomeranian (28.11%) | teddy (47.30%)         |
 | Dandie_Dinmont (9.16%) | Chihuahua (23.00%)  | French_loaf (17.43%)   |
 | -                      | Pembroke (21.34%)   | custard_apple (10.68%) |
+
+---
+
+## Scripts (Powershell Core)
+
+| file             | args           | description                                                                                                                         |
+| ---------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| activate-env.ps1 |                | Activates local environment. Run automatically by VS Code.                                                                          |
+| create-env.ps1   |                | script to create new local environemnt                                                                                              |
+| pipi.ps1         | [package_name] | (pip install). After installation, update requirements.txt. If package_name is not provided, install packages from requirements.txt |
+| run.ps1          | file_base_name | `run task1`                                                                                                                         |
