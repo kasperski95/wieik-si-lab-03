@@ -33,7 +33,7 @@ pathspec==0.8.0
 pathtools==0.1.2
 Pillow==7.1.1
 promise==2.3
-protobuf==3.11.3
+protobuf==3.18.3
 psutil==5.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
